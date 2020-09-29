@@ -14749,6 +14749,16 @@ video {
   transition-duration: 300ms
 }
 
+.main-template {
+  grid-template-rows: auto 1fr;
+}
+
+@media (min-width: 768px) {
+  .main-template {
+    grid-template-rows: 1fr;
+  }
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

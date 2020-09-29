@@ -15,7 +15,7 @@ const NavBar = () => {
     });
 
     return (
-        <div className="md:col-span-1 md:flex md: justify-end">
+        <div className="md:col-span-1 md:flex md:justify-end">
             <nav className="text-right">
                 <div className="flex justify-between items-center">
                     <h1 className="font-bold uppercase p-4 border-b border-gray-100">

@@ -25,3 +25,13 @@
 .secondary-button {
     @apply btn bg-secondary-100 text-secondary-200 transition ease-out duration-300
 }
+
+.main-template {
+    grid-template-rows: auto 1fr;
+}
+
+@screen md {
+    .main-template {
+        grid-template-rows: 1fr;
+    }
+}
