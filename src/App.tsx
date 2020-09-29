@@ -15,7 +15,7 @@ import { pathNameSlice } from "./utils/parsers";
 const App = () => {
   return (
       <BrowserRouter>
-          <div className="text-gray-600 font-body grid md:grid-cols-3">
+          <div className="text-gray-600 font-body grid md:grid-cols-5">
               <NavBar />
               <MainTemplate>
                   <UserNav />

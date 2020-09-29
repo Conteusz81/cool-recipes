@@ -37,16 +37,15 @@ const mockupRecipes = [
 const Recipes: React.FC<IPathNameProps> = ({pathname}) => {
     return (
         <>
-            <Header title={pathname}>
-                <h3 className="text-2xl font-semibold">For Ninjas</h3>
-            </Header>
+            <Header title={pathname} />
+
             <div>
-                <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
+                <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Ostatnie Przepisy</h4>
                 <div className="mt-8 grid lg:grid-cols-3 gap-10">
                     { mockupRecipes.map(recipe => <Card key={recipe.id} {...recipe}/> )}
                 </div>
 
-                <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4>
+                <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Popularne Przepisy</h4>
                 <div className="mt-8">
                     {/*cards go here*/}
                 </div>
@@ -56,7 +55,7 @@ const Recipes: React.FC<IPathNameProps> = ({pathname}) => {
                 <div
                     className="secondary-button hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50"
                 >
-                    Load more
+                    więcej
                 </div>
             </div>
         </>

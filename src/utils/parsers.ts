@@ -1,1 +1,3 @@
-export const pathNameSlice = (pathname: string) => pathname.slice(1);
+export const pathNameSlice = (pathname: string) => {
+    return pathname.slice(1).replace("-", " ");
+}

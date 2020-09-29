@@ -1,8 +1,8 @@
 export const routes = {
     home: '/',
-    recipes: '/recipes',
-    about: '/about',
-    contact: '/contact',
-    login: '/login',
-    register: '/register',
+    recipes: '/przepisy',
+    about: '/o-nas',
+    contact: '/kontakt',
+    login: '/zaloguj',
+    register: '/rejestracja',
 };

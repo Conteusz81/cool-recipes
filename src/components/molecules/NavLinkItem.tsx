@@ -6,7 +6,7 @@ import { pathNameSlice } from "../../utils/parsers";
 
 const NavLinkItem: React.FC<INavLinkProps> = ({ route, icon }) => {
 
-    const navLinkName = route === routes.recipes ? '/home' : route;
+    const navLinkName = route === routes.recipes ? '/przepisy' : route;
     return (
         <li className="py-1">
             <NavLink to={route} className="px-4 flex justify-end border-r-4 border-white" activeClassName="font-bold border-primary">

@@ -19,7 +19,7 @@ const NavBar = () => {
             <nav className="text-right">
                 <div className="flex justify-between items-center">
                     <h1 className="font-bold uppercase p-4 border-b border-gray-100">
-                        <NavLink to={routes.home}>Food Ninja</NavLink>
+                        <NavLink to={routes.home}>fajne przepisy</NavLink>
                     </h1>
                     <div className="px-4 cursor-pointer md:hidden" onClick={() => setMenuVisibility(prevState => !prevState)}>
                         <FiMenu size={30} />
